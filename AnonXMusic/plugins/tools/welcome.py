@@ -102,7 +102,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 💝 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➤ @MusiclineTechTeam 🎶
 ♡゙
 ▰▱▱▱▱▱▱▱▱▱▱▱▱▱▰""",  
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Jio_saavn_rebot?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⦿ ᴀᴅᴅ ᴍᴇ ⦿", url=f"https://t.me/Mahadev_rebot?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
